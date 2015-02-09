@@ -1,36 +1,31 @@
----
+# site
+exclude:        [CNAME, README.md, .gitignore]
+permalink:      /
+timezone:       null
+lsi:            false
+markdown:       kramdown
+highlighter:    pygments
 
-port: 4000
-host: 0.0.0.0
-safe: false
-
-
-### site serving configuration ###
-exclude: [CNAME, README.md, .gitignore]
-permalink: / ## disables post output
-timezone: null
-lsi: false
-markdown: kramdown
-highlighter: pygments
-
-
-### content configuration ###
-title:       "SinglePaged - Title: Edit me in _config.yml!"
-keywords:    "SinglePaged, jekyll, template, github, blog, single page"
-description: "A single-page template for Jekyll based blogs (like what you'd use on github pages!)"
-source_link: "https://github.com/t413/SinglePaged"
+# content
+title:          Lensed
+description:    Forward reconstruction of lenses and sources from strong lensing observations
+source_link:    https://github.com/glenco/lensed
+keywords: >
+  lensed, lensing, gravitational lensing, reconstruction, fits, mcmc,
+  observations, models
 favicon:     #put a path like: "img/favicon.ico"
 touch_icon:  #put a path like: "img/apple-touch-icon.png"
-google_analytics_key: ## put YOUR key here to enable tracking! (blank to disable)
+google_analytics_key: 
 
-
-### template colors, used site-wide via css ###
+# colors
 colors:
-  black:     '#111111'
-  white:     '#f8f8f8'
-  blue:      '#49a7e9'
-  green:     '#9bcf2f'
-  purple:    '#c869bf'
-  orange:    '#fab125'
-  turquoise: '#0fbfcf'
-  
+  black:    '#000000'
+  white:    '#ffffff'
+  yellow:   '#b58900'
+  orange:   '#cb4b16'
+  red:      '#dc322f'
+  magenta:  '#d33682'
+  violet:   '#6c71c4'
+  blue:     '#268bd2'
+  cyan:     '#2aa198'
+  green:    '#859900'
