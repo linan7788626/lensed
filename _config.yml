@@ -8,11 +8,13 @@ highlighter:    pygments
 
 # content
 title:          Lensed
-description:    Forward reconstruction of lenses and sources from strong lensing observations
+description: >
+    Reconstruct gravitational lenses and lensed sources from
+    strong lensing observations.
 source_link:    https://github.com/glenco/lensed
 keywords: >
   lensed, lensing, gravitational lensing, reconstruction, fits, mcmc,
-  observations, models
+  observations, models, astronomy
 favicon:     #put a path like: "img/favicon.ico"
 touch_icon:  #put a path like: "img/apple-touch-icon.png"
 google_analytics_key: 
